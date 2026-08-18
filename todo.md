@@ -1,0 +1,31 @@
+# Project TODO
+
+- [x] Define workflow domain types, stage order, valid transitions, and recovery semantics.
+- [x] Create database schema for projects, workflow stages, activity events, artifacts, script versions, and approval records.
+- [x] Generate and apply the database migration for the workflow schema.
+- [x] Implement database query helpers for projects, stages, activity events, artifacts, scripts, and approvals.
+- [x] Implement authenticated workflow APIs for project creation, listing, detail retrieval, transitions, approvals, retries, and activity logs.
+- [x] Implement immutable artifact manifests and stage-level resume-from-checkpoint behavior.
+- [x] Implement a browser-research handoff that generates live-browsing instructions, tracks browser state, and imports structured Markdown and JSON research packages.
+- [x] Implement versioned script drafting and an approval gate that blocks audio work until approved.
+- [x] Implement Gemini TTS configuration, sentence chunk manifests, rate-limit-aware queue state, and audio artifact validation hooks.
+- [x] Implement Google Flow browser-generation handoff, per-scene prompt manifests, manual takeover state, download provenance, and per-scene retry.
+- [x] Implement rights-documented music intake with source allowlisting, license evidence fields, and a publishing blocker for unresolved rights.
+- [x] Implement deterministic FFmpeg render manifest generation, QC checklist state, subtitle metadata, and final export approval gate.
+- [x] Build the mathematical-blueprint dashboard with project progress, stage statuses, agent activity, and workflow health summary.
+- [x] Build project creation and project-detail workspace views with controls for approvals, retries, and artifacts.
+- [x] Apply the requested white grid, geometric diagram, cyan/pink wireframe, and black headline visual system.
+- [x] Add responsive and accessible interaction states, loading states, empty states, and error states.
+- [x] Add unit tests for state transitions, workflow progression, approval gates, research handoff validation, music-rights gating, and render eligibility.
+- [x] Validate type checking, tests, database migration, and rendered UI screenshots on desktop and mobile viewports.
+- [x] Write local setup, environment configuration, browser research workflow, Gemini TTS, Google Flow, music rights, and FFmpeg testing documentation.
+- [ ] Initialize the Git repository, create a private GitHub repository, commit the completed project, and push the main branch.
+- [x] Ensure every external provider adapter is disabled by default and surfaces a clear configuration handoff instead of requiring credentials during the core build.
+- [x] Add persisted Gemini TTS rate-limit retry/backoff state and audio artifact validation before stage completion.
+- [x] Enforce a documented music-source allowlist before accepting rights records.
+- [x] Add workflow service tests for approval decisions, blocked prerequisites, and stage-resume paths.
+- [x] Record a final migration-status validation alongside typecheck, test, and responsive UI checks.
+- [x] Verify the README documents the enforced music-source allowlist for local operators.
+- [x] Add workflow service tests for render and publishing blocks when required rights or final video evidence are missing.
+- [x] Add a publishing service test for verified rights but missing final video and QC artifact evidence.
+- [x] Add a publishing service test for verified rights but missing final video and QC artifact evidence.
