@@ -19,7 +19,7 @@
 - [x] Add unit tests for state transitions, workflow progression, approval gates, research handoff validation, music-rights gating, and render eligibility.
 - [x] Validate type checking, tests, database migration, and rendered UI screenshots on desktop and mobile viewports.
 - [x] Write local setup, environment configuration, browser research workflow, Gemini TTS, Google Flow, music rights, and FFmpeg testing documentation.
-- [ ] Initialize the Git repository, create a private GitHub repository, commit the completed project, and push the main branch.
+- [x] Initialize the Git repository, create a private GitHub repository, commit the completed project, and push the main branch.
 - [x] Ensure every external provider adapter is disabled by default and surfaces a clear configuration handoff instead of requiring credentials during the core build.
 - [x] Add persisted Gemini TTS rate-limit retry/backoff state and audio artifact validation before stage completion.
 - [x] Enforce a documented music-source allowlist before accepting rights records.
